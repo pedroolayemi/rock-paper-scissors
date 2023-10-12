@@ -13,11 +13,11 @@
 
       <button onclick="
         playGame('paper');
-      "><img src="/rpsimages/paper-emoji.png"></button>
+      "><img src="rpsimages/paper-emoji.png"></button>
 
       <button onclick="
         playGame('scissors');
-      "><img  src="/rpsimages/scissors-emoji.png"></button>
+      "><img  src="rpsimages/scissors-emoji.png"></button>
     </div>
     <div id="js-result">
 
@@ -95,7 +95,7 @@
       
 
         const pickCompare = document.getElementById('js-compare-picks');
-        pickCompare.innerHTML = `<h3>You Picked ${playerMove} <img class = "compare-img" src="/rpsimages/${playerMove}-emoji.png">  <img class = "compare-img" src="/rpsimages/${computerMove}-emoji.png">  Computer Picked ${computerMove}
+        pickCompare.innerHTML = `<h3>You Picked ${playerMove} <img class = "compare-img" src="rpsimages/${playerMove}-emoji.png">  <img class = "compare-img" src="rpsimages/${computerMove}-emoji.png">  Computer Picked ${computerMove}
           </h3>`;
 
         const scoreBoard = document.getElementById('js-scoreboard')
